@@ -1,6 +1,6 @@
 # Teamleader API v2 PHP SDK
 
-This is a PHP wrapper for the Teamleader API v2. Documentation of the API can be found here: [https://developer.teamleader.eu/](https://developer.teamleader.eu/).
+This is a PHP wrapper for the Teamleader API v2. Documentation of the API can be found here: [https://developer.focus.teamleader.eu/](https://developer.focus.teamleader.eu/).
 Please note that the Teamleader API v2 is not complete and some Entities and Actions are missing.
 
 Currently we only support a few entities and per entity only a few actions:
@@ -32,7 +32,7 @@ Currently we only support a few entities and per entity only a few actions:
 25. Custom fields (get)
 26. Quotations (get, getById, download, file)
 
-Teamleader API v2 works with OAuth2. This means your application needs to be registered on the [Teamleader Marketplace](https://marketplace.teamleader.eu/nl/nl/ontwikkel/integraties) (you can keep them private though).
+Teamleader API v2 works with OAuth2. This means your application needs to be registered on the [Teamleader Marketplace](https://marketplace.focus.teamleader.eu/nl/nl/ontwikkel/integraties) (you can keep them private though).
 
 Please contact me at jan@jannesmannes.nl if you have any feedback or questions.
 
@@ -76,10 +76,16 @@ $dealPhases = $client->dealPhase()->get();
 
 # Change log
 
+## 2.9.0 (2021-09-23)
+[Full change log](https://github.com/janhenkes/teamleader-php-sdk/compare/2.8.0...2.9.0)
+
+- Changed base URL to focus.teamleader.eu
+- Updated entity fields
+
 ## 2.8.0 (2021-02-18)
 [Full change log](https://github.com/janhenkes/teamleader-php-sdk/compare/2.7.1...2.8.0)
 
-- Imrpoved default cache handler
+- Improved default cache handler
 
 ## 2.7.1 (2021-01-12)
 [Full change log](https://github.com/janhenkes/teamleader-php-sdk/compare/2.7.0...2.7.1)
